@@ -50,13 +50,18 @@ A **probability** is defined as a numeric value on the interval `[0,1]`.
 ## Usage
 
 ```javascript
+import isProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-probability-array/tags). For example,
+
+```javascript
 import isProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@v0.1.0-deno/mod.js';
+import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@deno/mod.js';
 ```
 
 #### isProbabilityArray( value )
@@ -126,7 +131,7 @@ bool = isProbabilityArray.objects( [ 1.0, 0.0, 0.6 ] );
 
 ```javascript
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
-import isProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@v0.1.0-deno/mod.js';
+import isProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@deno/mod.js';
 
 var arr = [ 0.0, 1.0, 0.5 ];
 var bool = isProbabilityArray( arr );
