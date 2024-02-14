@@ -50,13 +50,13 @@ A **probability** is defined as a numeric value on the interval `[0,1]`.
 ## Usage
 
 ```javascript
-import isProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@esm/index.mjs';
+import isProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@esm/index.mjs';
+import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@v0.2.0-esm/index.mjs';
 ```
 
 #### isProbabilityArray( value )
@@ -131,7 +131,7 @@ bool = isProbabilityArray.objects( [ 1.0, 0.0, 0.6 ] );
 <script type="module">
 
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import isProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@esm/index.mjs';
+import isProbabilityArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-probability-array@v0.2.0-esm/index.mjs';
 
 var arr = [ 0.0, 1.0, 0.5 ];
 var bool = isProbabilityArray( arr );
